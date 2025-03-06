@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    
+    <link rel="stylesheet" href="Assets/Css/bootstrapmin.css">
+  
+    <link rel="stylesheet" href="Assets/Css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <style>
+    
+        .contact-form {
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 8px; 
+            box-shadow: 0 0 10px rgba(8, 8, 8, 0.1);
+        }
+        .row{margin-top: 60px;
+        }
+
+    </style>
+</head>
+<body>
+   
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col" id="header">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid my-5">
+        <div class="row">
+           
+            <div class="col-lg-6">
+                <section class="contact-form">
+                    <h2 class="text-center mb-4">Contact Us</h2>
+                    <p class="text-center text-muted mb-5">We'd love to hear from you! Reach out to us for any inquiries .</p>
+                    <form>
+                      
+                        <div class="mb-4">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name" placeholder="Enter your name" pattern="[a-zA-Z\s]{3,20}" title="Name Must Be Between 3 to 20 characters | Alphabets Only" required>
+                        </div>
+
+                        
+                        <div class="mb-4">
+                            <label for="email" class="form-label">Your Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email" pattern="^[^0-9].*@.*\..*$" required>
+                        </div>
+
+                       
+                        <div class="mb-4">
+                            <label for="message" class="form-label">Your Message</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Enter your message" required></textarea>
+                        </div>
+
+                      
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-dark btn-lg">
+                            Send Message
+                            </button>
+                        </div>
+                    </form>
+                </section> 
+            </div>
+            
+
+            
+            <div class="col-lg-6">
+              <div class="location" id="displayLocation"></div>
+    
+            </div>
+        </div>
+    </div>
+  </section>
+  <footer id="footerlink" class="bg-dark text-white py-4">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-md-4 mb-4">
+            <h3>About Us</h3>
+            <p>We are a team of passionate individuals working to make the web a better place.</p>
+          </div>
+  
+          
+          <div class="col-md-4 mb-4">
+            <h3>Quick Links</h3>
+            <ul class="list-unstyled">
+              <li><a href="index.html" class="text-white text-decoration-none">Home</a></li>
+              <li><a href="AboutUs.html" class="text-white text-decoration-none">About Us</a></li>
+              <li><a href="Gallery.html" class="text-white text-decoration-none">Gallery</a></li>
+              <li><a href="Contactus.html" class="text-white text-decoration-none">Contact Us</a></li>
+            </ul>
+          </div>
+  
+      
+          <div class="col-md-4 mb-4">
+            <h3>Contact Us</h3>
+            <ul class="list-unstyled">
+              <li>
+                <a href="mailto:info@brightworld.com" class="text-white text-decoration-none">
+                  <i class="fas fa-envelope me-2"></i> Email Us
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/" class="text-white text-decoration-none">
+                  <i class="fab fa-facebook me-2"></i> Facebook
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/login?" class="text-white text-decoration-none">
+                  <i class="fab fa-twitter me-2"></i> Twitter
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/accounts/login/?hl=en" class="text-white text-decoration-none">
+                  <i class="fab fa-instagram me-2"></i> Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+      
+      <div class="footer-bottom text-center py-3 bg-light text-dark">
+        <p class="mb-0">&copy; 2025 Bright World. All rights reserved | Designed by Shehryar</p>
+      </div>
+    </footer>
+
+
+</body>
+   
+<script src="Assets/Js/bootstrapmin.js"></script>
+<script src="Assets/Js/navbar.js"></script>
+<script src="Assets/Js/location.js"></script>
+</html>
+

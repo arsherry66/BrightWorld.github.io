@@ -1,0 +1,79 @@
+
+body {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.carousel-item img {
+    height: 600px;
+    object-fit: cover;
+    margin-top: 100px;
+}
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.brand-logo {
+    max-width: 100%;
+    height: auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.seeMoreBtn {
+    background-color: #000000; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.seeMoreBtn:hover {
+    background-color: #707070; 
+}
+
+
+.seeMoreBtn:active {
+    background-color: #707070; 
+}
+
+.seeMoreBtn {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.seeMoreBtn:hover {
+    transform: scale(1.05); 
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+    .about-image-wrapper {
+        overflow: hidden;
+        border-radius: 8px; 
+    }
+
+    .about-image {
+        transition: transform 0.3s ease; 
+    }
+
+    .about-image:hover {
+        transform: scale(1.1); 
+    };
+    
+    
+ 
+
+
+
